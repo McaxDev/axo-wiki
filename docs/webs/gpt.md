@@ -8,11 +8,11 @@ Axo账号可以通用于Axolotland以下网站：[数据可视化](https://datah
 在[datahub.mcax.cn](https://datahub.mcax.cn)注册过Axo账号的用户可以直接登录
 ## 模型
 在Axo-GPT中，我们提供了一下几个模型供您使用。但是为了保障服务器的维护、运营成本，我们将限制每位用户每天的询问次数。
-### ChatGPT-4 Turbo：
+### ChatGPT-4 Turbo
 最强大的模型，几乎能胜任任何工作 <code>2琉蓝币</code>或<code>4珠白币</code>每次
-### ChatGPT-3.5 Turbo：
+### ChatGPT-3.5 Turbo
 适用于日常的模型 <code>1琉蓝币</code>或<code>2珠白币</code>每次
-### AxoHelper：
+### AxoHelper
 解决你在Axolotland Minecraft服务器内的各项问题。 <code>1琉蓝币</code>或<code>2珠白币</code>每次
 ## 代币
 在保障服务器的维护、运营成本的同时，为了让所有用户都能够使用到更好的模型，我们引入了<code>蝾螈币</code>的概念。

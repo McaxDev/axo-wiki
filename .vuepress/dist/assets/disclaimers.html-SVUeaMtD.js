@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0686c5a0","path":"/docs/eula/disclaimers.html","title":"免责声明","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1713185255000,"updatedTime":1713185255000,"contributors":[{"name":"Nerakolo","email":"nerakolo@outlook.com","commits":1}]},"filePathRelative":"docs/eula/disclaimers.md"}');export{e as data};

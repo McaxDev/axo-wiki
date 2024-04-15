@@ -3,6 +3,11 @@ import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
+  locales: {
+    '/': {
+      lang: 'zh-CN', // 设置为简体中文
+    }
+  },
   title: "Axolotland wiki",
   description: "Axolotland 维基百科",
   theme: recoTheme({

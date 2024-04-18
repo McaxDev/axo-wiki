@@ -23,14 +23,14 @@ export default defineUserConfig({
     catalogTitle: '本页内容',
     // autoSetSeries: true,
     // series 为原 sidebar
-    algolia: {
-      appId: 'Z45X0P8O6D',
-      apiKey: 'c1c2d46dbf334f2f7d2d537acee04967',
-      indexName: 'mcax',
-      inputSelector: '<div></div>',
-      algoliaOptions: { 'facetFilters': ["lang:zh-CN"] },
-      debug: false // Set debug to true if you want to inspect the dropdown
-    },
+    // algolia: {
+    //   appId: 'Z45X0P8O6D',
+    //   apiKey: 'c1c2d46dbf334f2f7d2d537acee04967',
+    //   indexName: 'mcax',
+    //   inputSelector: '<div></div>',
+    //   algoliaOptions: { 'facetFilters': ["lang:zh-CN"] },
+    //   debug: false // Set debug to true if you want to inspect the dropdown
+    // },
     series: {
       "/docs/": [
         {

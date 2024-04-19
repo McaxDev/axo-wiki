@@ -1,8 +1,22 @@
 import { defineUserConfig } from "vuepress";
-import type { DefaultThemeOptions } from "vuepress";
+import { viteBundler } from '@vuepress/bundler-vite'
+// import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
+  head: [
+    ['link', { rel: 'stylesheet', href: '/style.css' }] // 指向 public 目录下的 style.css
+  ],
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
+  plugins: [
+    searchProPlugin({
+      // 配置选项
+    }),
+  ],
   locales: {
     '/': {
       lang: 'zh-CN', // 设置为简体中文
@@ -23,14 +37,14 @@ export default defineUserConfig({
     catalogTitle: '本页内容',
     // autoSetSeries: true,
     // series 为原 sidebar
-    algolia: {
-      appId: 'XVG4Q0JUB9',
-      apiKey: '53f4527b9b2b8c05d0b0f04c7ef022ee',
-      indexName: 'axowiki_index',
-      inputSelector: '<div></div>',
-      algoliaOptions: { 'facetFilters': ["lang:zh-CN"] },
-      debug: false // Set debug to true if you want to inspect the dropdown
-    },
+    // algolia: {
+    //   appId: 'XVG4Q0JUB9',
+    //   apiKey: '53f4527b9b2b8c05d0b0f04c7ef022ee',
+    //   indexName: 'axowiki_index',
+    //   inputSelector: '<div></div>',
+    //   algoliaOptions: { 'facetFilters': ["lang:zh-CN"] },
+    //   debug: false // Set debug to true if you want to inspect the dropdown
+    // },
     series: {
       "/docs/": [
         {

@@ -14,7 +14,8 @@ export default defineUserConfig({
   }),
   plugins: [
     searchProPlugin({
-      // 配置选项
+      autoSuggestions:false,
+      indexContent: true,
     }),
   ],
   locales: {

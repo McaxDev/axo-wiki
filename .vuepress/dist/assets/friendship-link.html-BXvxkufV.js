@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as n}from"./app-DdyZRrJD.js";const i={};function r(a,c){return t(),n("div")}const s=e(i,[["render",r],["__file","friendship-link.html.vue"]]),o=JSON.parse('{"path":"/friendship-link.html","title":"","lang":"zh-CN","frontmatter":{"layout":"FriendshipLink"},"headers":[],"git":{},"filePathRelative":null,"excerpt":""}');export{s as comp,o as data};
